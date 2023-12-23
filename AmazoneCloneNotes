@@ -1,0 +1,56 @@
+Amazon Clone:
+
+1) this is the notes of video tutorial of apna college video.
+Reference link: https://www.youtube.com/watch?v=nGhKIC_7Mkk
+///////////////////////////////////////
+
+NOTES:
+
+///////////////////////////////////////
+Icons: Fontawesome
+reference: https://fontawesome.com/
+
+1) for boiler plate code its !+shift
+2) for icons we will be using fontAwesome CDN {
+	what is CDN?
+	CDN = content Delivery network;
+	it will connect with us with the nearby server and provide needed service like image delivery, code delivery, in our case its fontAwesome icon delhivery;
+
+	ref=https://cdnjs.com/libraries/font-awesome; 
+}
+
+HTML:
+TAGS WE USED{
+	<header>used for the header content of a website</header>
+	<div>used to create a div box</div>
+	<link rel="stylesheet" href="stylesheet.css"> used to define the style of the website
+	<link rel="stylesheet" href="fontAwesome website CDN"> used for the icons  
+};
+
+
+CSS:
+
+note: 
+Important{
+	1)div needs a specific height to display a image; 
+}
+
+OVERALL PROPERTIES WE USED{
+	margin:0;//this is because we want margine to have the size of the content
+	font-family:Arial; //to keep the consistency of the website
+	border:border-boxed;
+};
+
+
+BACK GROUND COLORS{
+	color reference: 
+	Potential Correct Formats:
+			Hexadecimal: Hex colors are often represented as a hash # followed by a 3-digit or 6-digit code. For example: #0f1111.
+			RGB or RGBA: These use the rgb() or rgba() functions followed by values for red, green, blue (and alpha for rgba()). Example: 		rgb(15, 17, 17) or rgba(15, 17, 17, 1).
+			HSL or HSLA: These use the hsl() or hsla() functions with values for hue, saturation, lightness (and alpha for hsla()). 		Example: hsl(180, 6%, 6%) or hsla(180, 6%, 6%, 1).	
+
+};
+
+DIFFERENT DIV STYLING PROPERTIES WE USED{
+	
+};
