@@ -10,6 +10,7 @@
     color: white; /*this is for the text color*/ 
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .navbar-logo{
@@ -58,5 +59,97 @@
 /*Start of Box 3 styling*/
 /*Nav search div changes */
 .nav-search{
+    display: flex;
+    background-color: pink;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search-select{
+    text-align: center;
+    width: 50px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: 0;
+
+}
+
+.search-input{
+    width: 100%;
+    font-size:1rem;
+    border:none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: #0f1111;
+}
+
+/*END OF SEARCH BAR*/
+
+/*Language Div*/
+.language{
+    width: 60px;
+    text-align: center;
+    display: flex;
+    
+}
+.English{
+    font-weight: bold;
+    margin-top: 5px;
+    height: 15px;
+}
+.flag{
+    background-image:url(Flag_of_India.png);
+    background-size:contain;
+    height: 22px;/*note: image is only visible if we give height to the navbar*/
+    width: 100%;
+    margin-right: 5px;
+}
+.drop-down{
+    padding-top:3px;
+    width: 0.1px;
+}
+/*End of Language Div*/
+
+/*Signin div or Box 4*/
+
+.span-class{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight:700;
+}
+
+/*cart Div*/
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/*Seond Row Panel*/
+.panel{
+    height:40px;
+    background-color: #222f3d;
     display: flex;
 }
