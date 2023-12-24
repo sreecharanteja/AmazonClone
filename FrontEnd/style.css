@@ -38,6 +38,7 @@
 }
 
 /*box-two*/
+
 .address-first{
     color: #cccccc;
     font-size: 0.85rem; /*we will give font size on the orfer of rem, which means in the comparision of 
@@ -51,4 +52,11 @@
     font-size: 1rem;
     margin-left: 3px;
     /*new comment add*/
+}
+/*end of box 2 styling */
+
+/*Start of Box 3 styling*/
+/*Nav search div changes */
+.nav-search{
+    display: flex;
 }
